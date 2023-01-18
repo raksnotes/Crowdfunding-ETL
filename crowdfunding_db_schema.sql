@@ -69,7 +69,7 @@ REFERENCES "category" ("category_id");
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("subcategory_id")
 REFERENCES "subcategory" ("subcategory_id");
 
-ALTER TABLE "backers" ADD CONSTRAINT "fk_cf_id" 
+ALTER TABLE "backers2" ADD CONSTRAINT "fk_cf_id" 
 FOREIGN KEY("cf_id") 
 REFERENCES "campaign" ("cf_id"); 
 
