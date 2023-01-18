@@ -48,13 +48,13 @@ CREATE TABLE "contacts" (
      )
 );
 
-CREATE TABLE "backers" (
-    "backer_id" varchar(10)   NOT NULL,
+CREATE TABLE "backers2" (
+    "backer_id" varchar(100)   NOT NULL,
     "cf_id" int   NOT NULL,
     "first_name" varchar(50)   NOT NULL,
     "last_name" varchar(50)   NOT NULL,
     "email" varchar(100)   NOT NULL,
-    CONSTRAINT "pk_backers" PRIMARY KEY (
+    CONSTRAINT "pk_backers2" PRIMARY KEY (
         "backer_id"
      )
 );
