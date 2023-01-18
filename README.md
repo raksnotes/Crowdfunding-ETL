@@ -18,3 +18,7 @@ However, below is my final result, and I was able to import the backers.csv file
 
 ![backers_table_SQL](https://user-images.githubusercontent.com/116187123/213064185-b6130495-5255-48e3-a145-573416c6de0f.png)
 ![backerscsvsnapshot](https://user-images.githubusercontent.com/116187123/213064190-fb73cfe6-7d7b-492a-87cd-109c82b35f97.png)
+
+Additional Comments: 
+"cf_id" is a foreign key because it links to the primary key "cf_id" in the campaign table. 
+
